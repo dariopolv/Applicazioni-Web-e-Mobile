@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.menu">
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"></uses-permission>
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"></uses-permission>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"></uses-permission>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"></uses-permission>
+
+    <application
+        android:allowBackup="true"
+        android:label="Gestore Menu"
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        >
+        <activity android:name=".Activities.Login">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+        <activity android:name=".Activities.UploadMenu"
+            android:label="Carica un Nuovo Menu"
+            android:screenOrientation="portrait"
+            ></activity>
+
+        <activity android:name=".Activities.ChangeMenu"
+            android:label="Cambia Menu Visualizzato sul Sito"
+            android:screenOrientation="portrait"
+            ></activity>
+
+        <activity android:name=".Activities.ShowMenu"
+            android:label="Visualizza Menu Caricati"
+            android:screenOrientation="portrait"
+            ></activity>
+
+        <activity android:name=".Activities.Register"
+    android:label="Registrazione"
+    android:screenOrientation="portrait"
+    android:parentActivityName=".Activities.Login"
+    ></activity>
+
+        <activity android:name=".Activities.InsertIdCode"
+            android:label="Inserisci codici ID"
+            android:screenOrientation="portrait"
+            ></activity>
+
+        <activity android:name=".Activities.ShowIdCode"
+            android:label="Visualizza codici ID"
+            android:screenOrientation="portrait"
+            ></activity>
+
+        <activity android:name=".Activities.Home"
+
+            android:screenOrientation="portrait" ></activity>
+
+
+
+    </application>
+
+</manifest>

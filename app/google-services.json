@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "327482797357",
+    "firebase_url": "https://applicazioni-web-e-mobile.firebaseio.com",
+    "project_id": "applicazioni-web-e-mobile",
+    "storage_bucket": "applicazioni-web-e-mobile.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:327482797357:android:6623a709cf4e389beab7a4",
+        "android_client_info": {
+          "package_name": "com.example.menu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "327482797357-si7kjgafke5b13bhgmegfakgebc4iuq2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMbldJRVcOCnf5CQd_KYXEeLLr_oTxfMc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "327482797357-si7kjgafke5b13bhgmegfakgebc4iuq2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

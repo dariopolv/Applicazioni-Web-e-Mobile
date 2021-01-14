@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Menu</string>
+    <string name="cambia_menu">Cambia Menu</string>
+    <string name="carica_menu">carica menu</string>
+    <string name="gotologin">gotologin</string>
+    <string name="button">Button</string>
+    <string name="carica_un_nuovo_menu">Carica un nuovo Menu</string>
+    <string name="visualizza_menu_caricati">Visualizza Menu Caricati</string>
+    <string name="cambia_menu_attuale">Cambia Menu   attuale</string>
+    <string name="gestione_menu">Gestione Menu</string>
+    <string name="codici_id_menu">CODICI ID MENU</string>
+    <string name="menu_settimana_id_44">Menu Settimana: id 44</string>
+    <string name="menu_domenica_id_100">Menu Domenica: id 100</string>
+    <string name="menu_cena_id_58">Menu Cena: id 58</string>
+    <string name="visualizzazione_sito">Visualizzazione Sito</string>
+    <string name="home">Home</string>
+    <string name="navigation_drawer_open">Apri Navigation Drawer</string>
+    <string name="navigation_draver_close">Chiudi Navigation Drawer</string>
+    <string name="visualizza_codici_per_cambiare_menu">Visualizza Codici per cambiare menu</string>
+    <string name="aggiungi_codici_menu">Aggiungi codici menu</string>
+    <string name="modifica_menu">Modifica Menu</string>
+    <string name="registrati">Registrati</string>
+    <string name="accedi">Accedi</string>
+    <string name="login">Login</string>
+    <string name="nome">Nome</string>
+    <string name="cognome">Cognome</string>
+    <string name="indirizzo_mail">Indirizzo Mail</string>
+    <string name="password">Password</string>
+    <string name="numero_di_cellulare">Numero di Cellulare</string>
+    <string name="ruolo">Ruolo</string>
+
+    <string-array name="Select_Menu_Category">
+        <item>Menu Settimana</item>
+        <item>Menu Cena</item>
+        <item>Menu Sabato</item>
+        <item>Menu Domenica</item>
+    </string-array>
+    <!-- TODO: Remove or change_menu this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="change_actual_menu">Cambia Menu   Attuale</string>
+</resources>

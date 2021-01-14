@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Activities.ShowWebSite">
+    
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background"
+        >
+
+        <Button
+            android:id="@+id/showIdListButton"
+            android:layout_width="294dp"
+            android:layout_height="150dp"
+            android:layout_marginBottom="408dp"
+            android:text="@string/visualizza_codici_per_cambiare_menu"
+            android:textSize="20sp"
+            android:background="@drawable/button_border"
+            android:textColor="@color/white"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.495"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/change"
+            app:layout_constraintVertical_bias="0.353" />
+
+        <Button
+            android:id="@+id/addIdListButton"
+            android:layout_width="294dp"
+            android:layout_height="150dp"
+            android:background="@drawable/button_border"
+            android:textColor="@color/white"
+            android:text="@string/aggiungi_codici_menu"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.495"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.713" />
+
+        <Button
+            android:id="@+id/signout_button"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:text="Signout"
+            android:background="@drawable/button_border"
+            android:textColor="@color/white"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/addIdListButton" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>
